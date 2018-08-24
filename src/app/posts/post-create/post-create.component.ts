@@ -67,7 +67,6 @@ export class PostCreateComponent implements OnInit {
     console.log('post');
     console.log('post--', this.form.invalid);
     // if (this.form.invalid) {
-    //   console.log('post-invalid');
     //   return;
     // }
     this.isLoading = true;
